@@ -6,12 +6,14 @@ if (isset($_GET['id'])) {
     $sql = "select * from users where id=" . $id;
     $result = mysqli_query($conn, $sql);
     if (!mysqli_num_rows($result)) {
-        die("Something went wrong");
+        $response = array("success" => false, "message" => "Something went wrong!");
+        echo json_encode($response);
         return;
     }
     $user = mysqli_fetch_assoc($result);
 } else {
-    die("Invalid User..Please try again.");
+    $response = array("success" => false, "message" => "Invalid User. Please try again...");
+    echo json_encode($response);
     return;
 }
 
@@ -21,8 +23,13 @@ if (isset($_POST['submit'])) {
     $result2 = mysqli_query($conn, $sql);
 
     if (!mysqli_num_rows($result)) {
-        die("User not updated..Please try again");
+        $response = array("success" => false, "message" => "User not updated. Please try again...");
+        echo json_encode($response);
         return;
+    } else {
+        $response = array("success" => true, "message" => "Your account has been updated successfully!");
+        echo json_encode($response);
+        mysqli_close($conn);
     }
 }
 
@@ -109,6 +116,7 @@ if (isset($_POST['submit'])) {
         </form>
     </div>
 
+    <!-- <script src="./js/edit_profile.js"></script> -->
 
 </body>
 
