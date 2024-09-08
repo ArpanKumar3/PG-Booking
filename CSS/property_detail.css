@@ -1,0 +1,182 @@
+.bread-dashboard{
+    padding: 5px 20px;
+    background-color: rgb(236, 240, 231);
+    font-size: 14px;
+}
+
+.carousel img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.property-summary{
+    max-width: 800px;
+    padding: 10px 20px;
+    margin: auto;
+}
+
+.fav{
+    text-align: center;
+}
+
+.heart{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.interested{
+    font-size: 10px;
+    color: black;
+}
+
+.rating{
+    list-style: none;
+    display: inline-block;
+}
+
+.rate{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: rgb(233, 40, 40);
+    align-items: center;
+}
+
+.sex{
+    width: 40px;
+    height: 40px;
+}
+
+.gender{
+    margin-bottom: 10px;
+}
+
+.rate-prop{
+    justify-content: center;
+    align-items: center;
+}
+
+.price{
+    font-size: 12px;
+}
+.price strong{
+    font-size: 18px;
+}
+
+.view a{
+    width: 100%;
+}
+
+.amenity-container {
+    margin: 8px 0px;
+}
+
+.amenity-container img {
+    height: 20px;
+    margin-top: -4px;
+    margin-right: 4px;
+}
+
+.amenities-container {
+    max-width: 800px;
+    padding: 80px 20px;
+    margin: auto;
+}
+
+.amen-sec {
+    margin-bottom: 25px;
+}
+
+.about-container {
+    max-width: 800px;
+    padding: 30px 20px;
+    margin: auto;
+}
+
+.rating-container{
+    max-width: 800px;
+    padding: 30px 20px;
+    margin: auto;
+}
+
+.rating-criteria {
+    margin: 28px 0px;
+}
+
+.rating-criteria-icon {
+    width: 14px;
+}
+
+.rating-criteria-text {
+    margin-left: 8px;
+}
+
+.rating-criteria-star-container {
+    margin-top: -2px;
+}
+
+.rating-criteria-star-container i {
+    color: #11c0b7;
+    font-size: 12px;
+}
+
+.rating-circle {
+    background-color: #11c0b7;
+    color: white;
+    text-align: center;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    padding-top: 32px;
+    margin: auto;
+}
+
+.total-rating {
+    font-size: 40px;
+}
+
+.testimonial-container{
+    max-width: 800px;
+    padding: 60px 20px;
+    margin: auto;
+}
+
+.testimonial-block {
+    padding: 0px 24px 24px;
+    margin-top: 80px;
+    background-color: #f9f6e8;
+}
+
+.testimonial-image-container {
+    text-align: center;
+}
+
+.testimonial-img {
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: -40px;
+}
+
+.testimonial-text {
+    color: #777777;
+    text-align: center;
+    position: relative;
+}
+
+.testimonial-text i {
+    font-size: 20px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.testimonial-text p {
+    text-indent: 20px;
+}
+
+.testimonial-name {
+    color: #2F2E2E;
+    text-align: right;
+    font-weight: bold;
+    margin-top: 12px;
+}

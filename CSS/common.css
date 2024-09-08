@@ -1,0 +1,203 @@
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+}
+
+h2{
+    font-size: 30px;
+    margin-bottom: 32px;
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 25px;
+    }
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    padding: 10px 20px;
+}
+
+.nav-item i {
+    margin-right: 8px;
+}
+
+.nav-vl {
+    border-left: 2px solid #d6d6d678;
+    height: 24px;
+    margin: auto 16px;
+    display: block;
+}
+
+@media(max-width:768px) {
+    .nav-vl {
+        display: none;
+    }
+}
+
+.footer{
+    height: auto;
+    background-color: rgb(45, 36, 36);
+    padding: 0px 90px;
+}
+
+.copy{
+    color: rgb(197, 194, 194);
+    font-size: small;
+}
+
+.pglistfooter{
+    padding: 20px;
+    text-align: center;
+}
+
+.pglist{
+    margin-bottom: 5px;
+}
+
+.pglist a{
+    color: white;
+    font-size: small;
+}
+
+.copyright{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+/* modal css */
+
+#signup-form {
+  padding: 0;
+  width: 100%;
+}
+
+#login-form {
+  padding: 0;
+  width: 100%;
+}
+
+/* Input Group Styling */
+.input-group {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.input-group-prepend {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+  padding: 8px;
+}
+
+.input-group-text i {
+  color: #666;
+}
+
+.form-control {
+  border: 1px solid #ddd;
+  border-radius: 0 5px 5px 0;
+  padding: 10px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Radio Buttons */
+.form-group span {
+  font-size: 16px;
+}
+
+.form-group input[type="radio"] {
+  margin-left: 10px;
+}
+
+.form-group label {
+  margin-left: 5px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Button Styling */
+.btn-primary {
+  background-color: #5cb85c;
+  width: 100%;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #418241;
+}
+
+.modal-footer {
+  padding: 12px 30px;
+  border-top: 1px solid #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  border-radius: 0 0 8px 8px;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Text Styling */
+.modal-footer span {
+  color: #333;
+  font-size: 16px;
+}
+
+/* Link Styling */
+.modal-footer a {
+  color: #007bff;
+  text-decoration: none;
+  margin-left: 5px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.modal-footer a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}

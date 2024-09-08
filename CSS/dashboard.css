@@ -1,0 +1,107 @@
+.profile-container{
+    padding: 50px 20px;
+}
+
+.profile-icon{
+    height: 120px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.bread-dashboard{
+    padding: 5px 20px;
+    background-color: rgb(236, 240, 231);
+    font-size: 14px;
+}
+
+.profile-img{
+    font-size: 80px;
+    color: rgb(118, 115, 115);
+    border: 1px solid gray;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.profile-details{
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.details{
+    width: 50%;
+}
+
+.profile-edit{
+    font-size: 10px;
+    width: 30%;
+}
+
+.edit-text{
+    color: rgb(72, 72, 72);
+    text-decoration: underline;
+}
+
+.card-property{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.card-property:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.fav-prop-heading{
+    text-align: center;
+    margin: 40px;   
+}
+
+.fav-prop-card{
+    justify-content: space-evenly;
+    max-width: 800px;
+    align-items: center;
+    padding: 10px 20px;
+    margin: auto;
+}
+
+.details-body{
+    padding: 15px;
+}
+
+.card-img-top{
+    margin-top: 15px;
+}
+
+.rating{
+    list-style: none;
+    display: inline-block;
+}
+
+.rate{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgb(233, 40, 40);
+}
+
+.unisex{
+    width: 40px;
+    height: 40px;
+}
+
+.gender{
+    margin-bottom: 20px;
+}
+
+.rate-prop{
+    justify-content: center;
+    align-items: center;
+}
+
+.price strong{
+    font-size: 20px;
+}
+
+.view a{
+    width: 100%;
+}

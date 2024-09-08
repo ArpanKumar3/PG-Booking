@@ -1,0 +1,101 @@
+.bread-dashboard{
+    padding: 5px 20px;
+    background-color: rgb(236, 240, 231);
+    font-size: 14px;
+}
+
+.img-filter{
+    height: 50px;
+    width: 40px;
+    border: 1px solid rgb(175, 166, 166);
+    padding: 8px 4px;
+}
+
+.rent-opt{
+    justify-content: center;
+    padding: 30px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.filter-con{
+   text-align: center;
+   font-size: 13px;
+   cursor: pointer;
+}
+
+.card-property{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.fav-prop-card{
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+    max-width: 800px;
+    align-items: center;
+    padding: 10px 20px;
+    margin: auto;
+}
+
+.card-property:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-img-top{
+    padding-top: 12px;
+}
+
+.details-body{
+    padding: 15px;
+}
+
+.fav{
+    text-align: center;
+}
+
+.heart{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.interested{
+    font-size: 10px;
+    color: black;
+}
+
+.rating{
+    list-style: none;
+    display: inline-block;
+}
+
+.rate{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: rgb(233, 40, 40);
+    align-items: center;
+}
+
+.unisex{
+    width: 40px;
+    height: 40px;
+}
+
+.gender{
+    margin-bottom: 10px;
+}
+
+.rate-prop{
+    justify-content: center;
+    align-items: center;
+}
+
+.price strong{
+    font-size: 20px;
+}
+
+.view a{
+    width: 100%;
+}
+
