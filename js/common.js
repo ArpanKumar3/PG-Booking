@@ -16,7 +16,7 @@ window.addEventListener("load", function () {
         // Form data is sent with request
         XHR.send(form_data);
 
-        //document.getElementById("loading").style.display = 'block';
+        document.getElementById("loading").style.display = 'block';
         event.preventDefault();
     });
 
@@ -37,13 +37,13 @@ window.addEventListener("load", function () {
         // Form data is sent with request
         XHR.send(form_data);
 
-        //document.getElementById("loading").style.display = 'block';
+        document.getElementById("loading").style.display = 'block';
         event.preventDefault();
     });
 });
 
 var signup_success = function (event) {
-    //document.getElementById("loading").style.display = 'none';
+    document.getElementById("loading").style.display = 'none';
 
     var response = JSON.parse(event.target.responseText);
     if (response.success) {
@@ -55,7 +55,7 @@ var signup_success = function (event) {
 };
 
 var login_success = function (event) {
-    //document.getElementById("loading").style.display = 'none';
+    document.getElementById("loading").style.display = 'none';
 
     var response = JSON.parse(event.target.responseText);
     if (response.success) {
@@ -66,7 +66,7 @@ var login_success = function (event) {
 };
 
 var on_error = function (event) {
-    //document.getElementById("loading").style.display = 'none';
+    document.getElementById("loading").style.display = 'none';
 
     alert('Oops! Something went wrong.');
 };
